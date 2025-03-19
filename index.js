@@ -44,7 +44,7 @@ REMEMBER: Patients are often anxious or in pain. Respond quickly, solve their pr
 const ULTRAVOX_CALL_CONFIG = {
     systemPrompt: SYSTEM_PROMPT,
     model: 'fixie-ai/ultravox',
-    voice: 'Mark',
+    voice: '87edb04c-06d4-47c2-bd94-683bc47e8fbe',
     temperature: 0.3,
     firstSpeaker: 'FIRST_SPEAKER_AGENT',
     medium: { "twilio": {} }
@@ -76,7 +76,7 @@ async function createUltravoxCall() {
 
 app.get('/', (req, res) => {
     console.log('Home page accessed at:', new Date().toISOString());
-    res.status(200).send('Hello World! Welcome to the Twilio Incoming Quickstart Apps');
+    res.status(200).send('Hello World! Welcome to the Twilio Incoming Quickstart App');
 });
 
 
