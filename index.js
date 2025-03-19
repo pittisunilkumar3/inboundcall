@@ -76,7 +76,7 @@ async function createUltravoxCall() {
 
 app.get('/', (req, res) => {
     console.log('Home page accessed at:', new Date().toISOString());
-    res.status(200).send('Hello World! Welcome to the Twilio Incoming Quickstart App');
+    res.status(200).send('Hello World! Welcome to the Twilio Incoming Quickstart Apps');
 });
 
 
